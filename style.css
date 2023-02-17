@@ -1,0 +1,125 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+p{
+    color: dimgray;
+}
+nav{
+    margin-right: 150px;
+    height: 50px;
+}
+ul li{
+    float: right;
+    list-style: none;
+    padding: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(47, 46, 46);
+    
+}
+
+nav li:hover{
+    background-color: rgb(21, 223, 129);
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left:2%;
+}
+.half-width img{
+    width: 70%;
+    height: 60%;
+}
+
+.third-width{
+    width: 29%;
+    margin-left: 4%;
+    float: left;
+}
+.third-width img{
+    width: 100%;
+}
+
+.heighli{
+    color: #222b90;
+    font-size: 40px;
+}
+.heighli2{
+    color: #f15131;
+    font-size: 40px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(241, 140, 100), rgb(250, 88, 60));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+section{
+    height: 500px;
+}
+
+.middle{
+    background-color: rgb(47, 211, 211);
+    height: 630px;
+}
+
+.tt{
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    color: rgb(33, 44, 73);
+    font-weight: 700;
+}
+.bottom{
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+    text-align: center;
+    height: 300px;
+    
+}
+
+.bottom img{
+    width: 100%;
+    
+}
+
+.top-left {
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    font-size: 50px;
+    color: white;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 88px;
+    right: 56px;
+    background-image: linear-gradient(rgb(241, 140, 100), rgb(250, 88, 60));
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+  }
+
+  .lower{
+      margin-left: 35%;
+  }
+.lower img{
+    float: left;
+    margin-left: 15px;
+}
+.social{
+    margin-left: 55px;
+}
